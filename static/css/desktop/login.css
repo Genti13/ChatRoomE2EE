@@ -1,0 +1,42 @@
+#login.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--container-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.login-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.box-section {
+    background-color: var(--container-bg);
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+#historialSalas {
+    grid-column: span 2;
+}
+
+.sala-reciente-btn {
+    background-color: var(--sala-btn-bg);
+    color: var(--text-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    border: 1px solid var(--border-color);
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.sala-reciente-btn:hover {
+    background-color: var(--sala-btn-hover);
+}

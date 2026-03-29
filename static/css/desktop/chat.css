@@ -1,0 +1,73 @@
+#chat {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    background-color: var(--bg-color);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--container-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.chat-header h2 {
+    font-size: 1.2em;
+    color: var(--btn-bg);
+}
+
+.btn-salir {
+    background-color: transparent;
+    color: #d93025;
+    border: 1px solid #d93025;
+    padding: 5px 12px;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+
+.btn-salir:hover {
+    background-color: #d93025;
+    color: white;
+}
+
+#mensajes {
+    flex: 1 1 auto;
+    height: 0;
+    overflow-y: auto;
+    padding: 15px 20px;
+    background-color: var(--msg-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-area {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: var(--container-bg);
+    border-top: 1px solid var(--border-color);
+    position: relative;
+}
+
+#emojiBtn {
+    width: 45px;
+    font-size: 1.2em;
+    background-color: var(--sala-btn-bg);
+    color: var(--text-color);
+}
+
+#enviarBtn {
+    width: 80px;
+}
