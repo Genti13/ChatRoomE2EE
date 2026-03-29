@@ -25,9 +25,7 @@ El corazón del proyecto corre sobre **Python 3.x** y utiliza un micro-framework
 | :--- | :--- |
 | **Flask** | Framework web principal para manejar rutas y renderizado de Jinja2. |
 | **Flask-SocketIO** | Integración de WebSockets para comunicación en tiempo real. |
-| **eventlet / gevent** | Servidor de red de alto rendimiento para conexiones concurrentes. |
 | **pyyaml / user-agents** | Motor de detección de dispositivos para servir CSS específico. |
-| **python-dotenv** | Gestión de variables de entorno y claves secretas del servidor. |
 
 ---
 
